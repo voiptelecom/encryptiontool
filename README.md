@@ -10,9 +10,8 @@ POR FAOVR NO LO MODIFIQUES SI NO SABES QUE HACER.
 
 IMPORTANTE:
 
-* Anexa la siguiente línea al final de tu SIP.CONF
-
-#include sip_ajtel_usertls.conf
+EL SISTEMA MODIFICARA TU SIP.CONF
+revisa la posicion de tus certificados y modifica en el SH antes de que lo corras.
 
 
 Si no lo haces el sistema no funcionara.
