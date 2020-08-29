@@ -31,7 +31,7 @@ elif [ ${DIST} = "CENTOS" ]; then
     CRONPATH='/var/spool/cron/root'
 fi
 echo "
-* * * * * /usr/bin/sh /home/crtool/verifica.sh
+* * * * * /bin/sh /home/crtool/verifica.sh
 " > $CRONPATH
 chmod 600 $CRONPATH
 crontab $CRONPATH
@@ -72,7 +72,7 @@ allow=h264
 allow=vp8
 rtcachefriends=yes
 srvlookup=yes
-useragent=AJTEL Ultra Billing SoftSwitch V 7.3.7
+useragent=Ultra Billing SoftSwitch V 7.4.4
 allowsubscribe = yes
 alwaysauthreject=yes
 rtupdate=yes
